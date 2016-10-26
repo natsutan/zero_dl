@@ -4,8 +4,10 @@
 ### STEP関数
 入力が0を超えたら１、それ以外は0
 
-$ a = b $
+```python:step_function
+def step_function(x):
+    # x > 0 が真偽値を返し、dtypeでintを指定して0と1に変換している
+    return np.array(x > 0, dtype=np.int)
+```
 
-$$ a = b $$
-
-$$ h(x)=\begin{cases}0(x<=0)\\1(x>0)\end{cases}$$
+[step関数](./step.png "step関数")
