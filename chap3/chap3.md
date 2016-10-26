@@ -12,3 +12,12 @@ def step_function(x):
 ```
 
 ![step関数](./step.png "step関数")
+
+### sigmoid関数
+
+```python
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+```
+
+![sigmoid関数](./sigmoid.png "sigmoid関数")
