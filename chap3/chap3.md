@@ -14,6 +14,7 @@ def step_function(x):
 ![step関数](./step.png "step関数")
 
 ### sigmoid関数
+非線形であることが大事。線形であるばあい、多層のメリットがだせない。
 
 ```python
 def sigmoid(x):
@@ -21,3 +22,13 @@ def sigmoid(x):
 ```
 
 ![sigmoid関数](./sigmoid.png "sigmoid関数")
+
+### ReLU関数
+Rectified Linear Unit  
+
+```python
+def relu(x):
+    return np.maximum(0, x)
+```
+
+![ReLU関数](./relu.png "ReLU関数")
