@@ -47,7 +47,9 @@ def numerical_diff(f, x):
 
 ## 数値微分の例
 $$
+\begin{eqnarray*}
 y = 0.01x^2 + 0.1x
+\end{eqnarray*}
 $$
 
 
